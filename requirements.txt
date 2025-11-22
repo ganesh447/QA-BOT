@@ -1,0 +1,19 @@
+# FastAPI and server dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+httpx>=0.25.0
+
+# RAG chain dependencies
+ollama>=0.1.0
+
+# Embedding and indexing dependencies (from chunk_and_index.py)
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+
+# YouTube transcript extraction (from extracter1.py)
+youtube-transcript-api>=0.6.0
+
+# Standard dependencies
+numpy>=1.24.0
+
